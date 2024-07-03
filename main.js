@@ -37,7 +37,7 @@ function calculateInvestmentGrowth() {
     document.getElementById('investmentResult').textContent = `Future Value: ${futureValue.toFixed(2)}`;
   }
 }
-
+    // Add input validation for user interface.
 function validateInput(principal, rate, time) {
   if (isNaN(principal) || isNaN(rate) || isNaN(time)) {
     alert('Please enter valid numbers for all fields.');
